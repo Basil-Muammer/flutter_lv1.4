@@ -1,5 +1,10 @@
-android/* linguist-vendored
-ios/* linguist-vendored
-windows/* linguist-vendored
-macos/* linguist-vendored
-linux/* linguist-vendored
+# تجاهل ملفات الأنظمة الجاهزة
+android/** linguist-vendored
+ios/** linguist-vendored
+windows/** linguist-vendored
+macos/** linguist-vendored
+linux/** linguist-vendored
+web/** linguist-vendored
+
+# اعتبر فقط ملفات Dart أساسية
+*.dart linguist-detectable=true
